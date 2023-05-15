@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "[=] led trigger"
 uci set system.led_green.trigger=off
 uci commit system
 /etc/init.d/led restart
